@@ -90,30 +90,62 @@ body, html {
 .bannertext {
 	position: relative;
 	float: left;
-	top: 30%;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 2.5em;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Shadows Into Light', cursive;
 	color: white;
 	text-align: center;
-	
-	
-	
-	
+	padding-bottom:100px;
+	padding-top:200px;
+
 	
 }
 
+.contactswrapper{
+	padding-top:200px;
+	position: relative;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 30%;
+	margin-left: 5%;
+	margin-top: 150px;
+	align-items: stretch;
+
+}
+
+.socialicon img {
+	
+	height: 100px;
+	width: 100px;
+	padding: 10%;
+
+}
+
+#github a:hover {
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-image= url("Bilder/armcropped.png");
+
+}
+
+
 .bannersäule {
 	width: 30%;
-	
 	background-image: url("Bilder/armcropped.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	position:absolute;
 	overflow: visible;
     z-index: 1;
-	top: 40%;
+	top: 30%;
 	background-size:contain;
 	padding-top: 20%;
 
@@ -160,15 +192,22 @@ body, html {
 .InfoWrapper {
 	width: 100%;
 	margin: auto;
-	padding: 20px 20px;
+	
 } 
  
 #Kursangebot {
 	font-size: 2.5em;
-	padding-left: 10%;
+	padding-left:2%;
+	padding-right:2%;
 	font-family: 'Rubik', sans-serif;
 	width: 100%;
 	padding-top: 100px;
+	
+
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	
 }
 
 .infoheader {
