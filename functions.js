@@ -11,7 +11,7 @@ $(window).scroll(function(){
    
 
     $('.bannersäule').css({
-      'transform' : 'translate(0px, -'+ wScroll /20 +'%)'
+      'transform' : 'translate(0px, -'+ wScroll /50 +'%)'
     });
 
   });
