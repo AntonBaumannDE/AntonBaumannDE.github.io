@@ -106,8 +106,8 @@ body, html {
 .contactswrapper{
 	padding-top:200px;
 	position: relative;
-	top: 50%;
-	left: 55%;
+	top: 45%;
+	left: 40%;
 	transform: translate(-50%, -50%);
 	display:flex;
 	flex-flow: row wrap;
@@ -193,6 +193,7 @@ body, html {
 	width: 100%;
 	margin: auto;
 	
+	
 } 
  
 #Kursangebot {
@@ -214,6 +215,7 @@ body, html {
 	font-family: 'Rubik', sans-serif;
 	border-top: 1px solid #C0C0C0;
 	padding: 20px;
+	padding-left: 50px;
 	font-size: 2.5em;
 	display:inline-block;
 	width: 100%;
@@ -357,6 +359,7 @@ body, html {
 	margin-left: 7.5%;
 	border-bottom: 1px solid #C0C0C0;
 	background-color:white;
+	padding-bottom: 2%;
 
 }
 
@@ -365,12 +368,13 @@ body, html {
 	padding-bottom: 100px;
 }
 .terminhead {
+	margin-top:5%;
 	width:100%;
 	font-family: 'Rubik', sans-serif;
 	font-size: 3em;
 	background-color:#6666FF;
 	color:white;
-
+	padding-top:2%;
 	padding-left: 10%;
 
 }
