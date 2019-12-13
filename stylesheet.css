@@ -399,6 +399,14 @@ body, html {
 	margin-top: -10px;
 	}
 
+	.privatinfo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-height:1400px;
+	
+}
 
   .
 }
