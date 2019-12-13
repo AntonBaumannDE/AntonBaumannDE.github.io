@@ -72,7 +72,8 @@ body, html {
 															
 .bannerbox {
 	position: relative;
-	height: 1000px;
+	height: 100%;
+	max-height: 800px;
 	background-image: url("Bilder/blurrytest.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -103,6 +104,16 @@ body, html {
 	
 }
 
+.contactswrapper:hover + .bannersäule {
+    transition-timing-function: ease-in;
+	-webkit-transform:  rotate(-10deg); /* Safari */
+    -moz-transform:  rotate(-10deg); /* Firefox 3.6 Firefox 4 */
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    transform-origin: left middle;
+	
+}
+
 .contactswrapper{
 	padding-top:200px;
 	position: relative;
@@ -119,10 +130,14 @@ body, html {
 
 }
 
+.social a:hover{
+    border-bottom:5px solid white;
+}
+
 .socialicon img {
 	
-	height: 100px;
-	width: 100px;
+	height: 30px;
+	width: 30px;
 	padding: 10%;
 
 }
@@ -148,6 +163,7 @@ body, html {
 	top: 30%;
 	background-size:contain;
 	padding-top: 20%;
+	
 
 	
 	
@@ -203,12 +219,16 @@ body, html {
 	font-family: 'Rubik', sans-serif;
 	width: 100%;
 	padding-top: 100px;
-	
-
 	display:flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	
+}
+
+#mugshot img {
+
+	height: 500px;
+	widht:500px;
 }
 
 .infoheader {
@@ -359,7 +379,7 @@ body, html {
 	margin-left: 7.5%;
 	border-bottom: 1px solid #C0C0C0;
 	background-color:white;
-	padding-bottom: 2%;
+	
 
 }
 
@@ -387,6 +407,10 @@ body, html {
 	overflow:visible;
 	margin: auto;
 	color: white;
+	
+}
+
+#niryo {
 	
 }
 
@@ -418,6 +442,7 @@ body, html {
 
 .kästchen:hover {
 	background-color:#6501ce;
+	z-index: 2;
 }
 
 																						 /*Kontakt*/ 
