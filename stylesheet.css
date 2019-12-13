@@ -318,7 +318,7 @@ body, html {
   }
   
   .summarytxt {
-	  font-size:0.3em;
+	  font-size:0.25em;
 	  text-align:center;
   }
   
@@ -328,7 +328,7 @@ body, html {
   }
   
   .bannersäule {
-	width: 600px;
+	width: 350px;
 	background-image: url("Bilder/armcropped.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
