@@ -268,6 +268,10 @@ body, html {
 	border-radius:1%;
 }
 
+#prosum{
+	padding: 20px;
+}
+
 
 .firmeninfo {
 	display: flex;
