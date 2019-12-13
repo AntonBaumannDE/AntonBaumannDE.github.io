@@ -311,12 +311,14 @@ body, html {
   
   .sub {
 	max-width:80%;
-	margin: 10%;
+	margin-right: 15%;
 	margin-left: 15%;
+	margin-top:1%;
+	margin-bottom:1%;
   }
   
   .subinfotext {
-	  text-align:center;
+	  text-align:justify;
   }
   
   .summarytxt {
@@ -411,7 +413,7 @@ body, html {
 	}
 
 	#AboutMe {
-	padding-top:100px;
+	padding-top:0px;
 	}
   .
 }
