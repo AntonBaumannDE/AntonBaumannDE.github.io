@@ -81,9 +81,6 @@ body, html {
 	background-attachment: fixed;
 	overflow:visible;
 	margin-top: -10px;
-	
-	
-	
 }
 
 
@@ -250,6 +247,8 @@ body, html {
 	text-align: center;
 }
 
+
+
 .Info p {
 	font-family: 'Trirong', sans-serif;
 }
@@ -285,8 +284,8 @@ body, html {
   
   @media (max-width: 1025px) {
   .firmeninfo {
-	  	flex-direction: column;
-		align-content: center;
+	flex-direction: column;
+	align-content: center;
   }
   
   .privatinfo {
@@ -297,8 +296,25 @@ body, html {
   .sub {
 	max-width:80%;
 	margin: 10%;
-	margin-left: 13%;
+	margin-left: 15%;
   }
+  
+  .subinfotext {
+	  text-align:center;
+  }
+  
+  .summarytxt {
+	  font-size:8vw;
+	  text-align:center;
+  }
+  
+  .summaryhead{
+	  font-size:16vw;
+	  text-align:center;
+
+  }
+  
+  .
 }
 
 																/*Firmenliste*/
