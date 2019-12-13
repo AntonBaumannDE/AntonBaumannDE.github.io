@@ -346,7 +346,7 @@ body, html {
   .contactswrapper{
 	padding-top:200px;
 	position: relative;
-	top: 50%;
+	top: 60%;
 	left: 40%;
 	transform: translate(-50%, -50%);
 	display:flex;
@@ -411,7 +411,7 @@ body, html {
 	margin-top:5%;
 	width:100%;
 	font-family: 'Rubik', sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 	background-color:#6666FF;
 	color:white;
 	padding-top:2%;
