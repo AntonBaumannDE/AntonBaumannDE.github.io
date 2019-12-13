@@ -294,6 +294,7 @@ body, html {
   .sub {
 	max-width:80%;
 	margin: 10%;
+	margin-left: 13%;
   }
 }
 
@@ -442,7 +443,6 @@ body, html {
 
 .kästchen:hover {
 	background-color:#6501ce;
-	z-index: 2;
 }
 
 																						 /*Kontakt*/ 
