@@ -337,16 +337,16 @@ body, html {
 	position:absolute;
 	overflow: visible;
     z-index: 1;
-	top: 30%;
+	top: 10%;
 	background-size:contain;
-	padding-top: 20%;
+	
 	height: 200px;	
 	}
   
   .contactswrapper{
 	padding-top:200px;
 	position: relative;
-	top: 60%;
+	top: 40%;
 	left: 40%;
 	transform: translate(-50%, -50%);
 	display:flex;
@@ -372,6 +372,34 @@ body, html {
 		width: 300px;
 		height: 300px;
 	}
+	
+	.bannertext {
+	position: relative;
+	float: left;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5em;
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+	text-align: center;
+	padding-bottom:100px;
+	padding-top:150px;
+	}
+	.bannerbox {
+	position: relative;
+	height: 100%;
+	max-height: 600px;
+	background-image: url("Bilder/blurrytest.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow:visible;
+	margin-top: -10px;
+	}
+
+
   .
 }
 
