@@ -273,6 +273,18 @@ body, html {
 }
 
 
+.summarytxt {
+	  font-size:2vw;
+	 
+  }
+  
+.summaryhead{
+	  font-size:5vw;
+	  
+
+  }
+
+
 .firmeninfo {
 	display: flex;
 	flex-direction: row;
@@ -308,16 +320,53 @@ body, html {
   }
   
   .summarytxt {
-	  font-size:8vw;
+	  font-size:0.4em;
 	  text-align:center;
   }
   
   .summaryhead{
-	  font-size:16vw;
+	  font-size:1.4em;
 	  text-align:center;
-
   }
   
+  .bannersäule {
+	width: 600px;
+	background-image: url("Bilder/armcropped.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	position:absolute;
+	overflow: visible;
+    z-index: 1;
+	top: 30%;
+	background-size:contain;
+	padding-top: 20%;
+	height: 200px;	
+	}
+  
+  .contactswrapper{
+	padding-top:200px;
+	position: relative;
+	top: 70%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 30%;
+	margin-left: 5%;
+	margin-top: 150px;
+	align-items: stretch;	
+	}
+	
+	.bannersäule:hover {
+    transition-timing-function: ease-in;
+	-webkit-transform:  rotate(10deg); /* Safari */
+    -moz-transform:  rotate(10deg); /* Firefox 3.6 Firefox 4 */
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    transform-origin: left middle;
+	left: -10%;
+	}
   .
 }
 
