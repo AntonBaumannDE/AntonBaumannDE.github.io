@@ -346,7 +346,7 @@ body, html {
   .contactswrapper{
 	padding-top:200px;
 	position: relative;
-	top: 60%;
+	top: 50%;
 	left: 40%;
 	transform: translate(-50%, -50%);
 	display:flex;
