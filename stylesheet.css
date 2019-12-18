@@ -273,7 +273,7 @@ body, html {
 
 
 .summarytxt {
-	  font-size:2vw;
+	  font-size:1vw;
 	 
   }
   
@@ -293,8 +293,8 @@ body, html {
 
 .sub {
 	max-width:45%;
-	margin-left: 20px;
-	margin-right:20px;
+	margin-left: 10px;
+	margin-right:10px;
 }
   
   
@@ -402,6 +402,7 @@ body, html {
 
 	
 	.terminhead {
+	
 	margin-top:5%;
 	width:100%;
 	font-family: 'Rubik', sans-serif;
@@ -410,6 +411,7 @@ body, html {
 	color:white;
 	padding-top:2%;
 	padding-left: 10%;
+	font-size:1vw;
 	}
 
 	#AboutMe {
