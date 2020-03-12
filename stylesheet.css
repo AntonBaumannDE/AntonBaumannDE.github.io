@@ -2,12 +2,9 @@ body, html {
 	margin: 0;
 	padding: 0;
 	width:100%;
-	overflow-x: hidden;
-	
-}
-	
-                                                 	/*NAVIGATION*/
-													
+	overflow-x: hidden;	
+}	
+                                               	/*NAVIGATION*/													
 #boxx {
 	width:100%;
 }
@@ -67,9 +64,7 @@ body, html {
 	border-bottom: 1px solid black;
   }
 }*/
-									                                    /*BANNER*/
-									
-															
+						   /*BANNER*/														
 .bannerbox {
 	position: relative;
 	height: 100%;
@@ -196,7 +191,7 @@ body, html {
   }
 }*/
 
-                                                                                   /*Content*/
+                                                          /*Content*/
 
 .Info p {
 	font-family: 'Trirong', sans-serif;
